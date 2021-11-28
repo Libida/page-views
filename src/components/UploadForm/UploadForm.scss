@@ -1,0 +1,24 @@
+@import './src/styles/variables';
+
+.upload-form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.upload-form__reset {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+
+  &:after {
+    display: inline-block;
+    content: '\00d7';
+    font-size: 1.2rem;
+    color: $red-1;
+  }
+}
+
+.upload-form__choose-file, .upload-form__reset {
+  cursor: pointer;
+}

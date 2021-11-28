@@ -1,0 +1,11 @@
+@import './src/styles/variables';
+
+.log-viewer {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: $white-1;
+
+  .table {
+    margin-top: 20px;
+  }
+}

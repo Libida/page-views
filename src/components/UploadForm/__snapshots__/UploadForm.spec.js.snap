@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadForm should match snapshot for case with visible reset button 1`] = `
+<section
+  className="upload-form-section"
+>
+  <h2
+    className="h-2"
+  >
+    Add a Document
+  </h2>
+  <form
+    className="upload-form"
+  >
+    <input
+      accept=".txt"
+      className="upload-form__choose-file"
+      onChange={[Function]}
+      type="file"
+    />
+    <button
+      aria-label="Reset"
+      className="upload-form__reset"
+      onClick={[Function]}
+      title="Reset"
+      type="button"
+    />
+  </form>
+</section>
+`;
+
+exports[`UploadForm should match snapshot for default initial props 1`] = `
+<section
+  className="upload-form-section"
+>
+  <h2
+    className="h-2"
+  >
+    Add a Document
+  </h2>
+  <form
+    className="upload-form"
+  >
+    <input
+      accept=".txt"
+      className="upload-form__choose-file"
+      onChange={[Function]}
+      type="file"
+    />
+  </form>
+</section>
+`;
