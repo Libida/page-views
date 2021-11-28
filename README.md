@@ -1,6 +1,9 @@
 # page-views
 Get page views from logs.
 
+Demo:
+http://Libida.github.io/page-views
+
 Description:
 * user can upload a log file as a form input (examples of file can be taken from test-data folder);
 * after processing of uploaded log files, lists of webpages with total page views and unique page views (ordered from most to least page views) should be shown.
