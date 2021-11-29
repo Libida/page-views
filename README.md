@@ -11,7 +11,7 @@ Description:
 What was done:
 * functionality according to description above;
 * responsive layout;
-* A11y;
+* A11y (rems, semantic markup);
 * unit testing on example of src/utils/file;
 * snapshot testing on example of UploadForm.
 
